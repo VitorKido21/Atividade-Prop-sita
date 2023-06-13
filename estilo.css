@@ -1,33 +1,38 @@
-body{
-    background-color:rgb(151, 151, 151);
-    font-family: 'Lucida Sans';
-    font-size: small;
-    color: #000000;
-    text-align: center;
-    display: inline;
-    font-size: 14px;
-    }
-    h3{
-    font-family: 'Lucida Sans';
-    font-size: small;
-    color: #000000;
-    text-align: center;
-    display: inline;
-    font-size: 14px;
-    }
-    .linha {
-    font-family: 'Lucida Sans';
-    font-size: small;
-    font-size: 12px;
-    background-color:rgb(66, 56, 10);
-    }
-    .lista {
-    font-family: 'Lucida Sans';
-    font-size: small;
-    text-align: left;
-    font-size: 12px;
-    color:rgb(66, 56, 10);
-    }
-    .itens {
-    background-color: rgb(211, 204, 174);
-    }
+.menu{
+
+    position: relative;
+    width: 1432px;
+    height: 32px;
+    
+    background: #121162;
+}
+.cabecalho{
+    position: relative;
+    width: 1432px;
+    height: 129px;
+    
+    background: linear-gradient(180deg, #352D92 0%, #000000 100%);
+}
+.cabecalhp-img3{
+    position: absolute;
+    width: 108px;
+    height: 147px;
+    left: 19px;
+    top: -18px; 
+}
+.cabecalho-apre{
+    position: absolute;
+width: 262px;
+height: 30px;
+left: 145px;
+top: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 17px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+{

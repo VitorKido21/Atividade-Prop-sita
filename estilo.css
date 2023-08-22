@@ -1,38 +1,72 @@
 .menu{
-
-    position: relative;
-    width: 1432px;
-    height: 32px;
-    
-    background: #121162;
-}
-.cabecalho{
-    position: relative;
-    width: 1432px;
-    height: 129px;
-    
-    background: linear-gradient(180deg, #352D92 0%, #000000 100%);
-}
-.cabecalhp-img3{
-    position: absolute;
     width: 108px;
     height: 147px;
-    left: 19px;
-    top: -18px; 
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
-.cabecalho-apre{
-    position: absolute;
-width: 262px;
+.menu-texto{
+    width: 262px;
 height: 30px;
-left: 145px;
-top: 40px;
-
-font-family: 'Inter';
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 17px;
 font-style: normal;
 font-weight: 800;
-font-size: 17px;
-line-height: 21px;
-text-align: center;
+line-height: normal;
+}
+.cabecalho{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    Esses são alguns itens de minha preferência:
+}
 
-color: #FFFFFF;
-{
+.cabecalho-texto{
+    
+}
+.corpo{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 30% 30% 30%;
+    position: absolute;
+    
+    width: 1440px;
+    height: 640px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #28AE96 43.23%, rgba(40, 174, 150, 0.00) 100%);
+   
+}
+corpo-img{
+    width: 182px;
+height: 479px;
+flex-shrink: 0;
+}
+.corpo-itens{
+
+    text-align: center;
+    padding: 16px 0;
+}
+.corpo-itens-img{
+    width: 182px;
+}
+.rodape{
+    width: 1440px;
+height: 114px;
+flex-shrink: 0;
+background: linear-gradient(180deg, #28AE96 43.23%, rgba(40, 174, 150, 0.00) 100%);
+}
+.rodape-texto{
+    color: #000;
+font-size: 20px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 6px;
+}
